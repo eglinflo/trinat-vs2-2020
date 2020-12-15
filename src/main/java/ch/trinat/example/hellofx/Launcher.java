@@ -6,5 +6,4 @@ public class Launcher {
         HelloFX.main(args);
     }
 
-    //test
 }
