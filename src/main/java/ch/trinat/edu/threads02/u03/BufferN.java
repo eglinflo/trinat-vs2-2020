@@ -1,11 +1,12 @@
 package ch.trinat.edu.threads02.u03;
 
-public class BufferN{
+public class BufferN {
     private int head;
     private int tail;
     private int numberOfElements;
     private int[] data;
-    public BufferN (int n) {
+
+    public BufferN(int n) {
 
         data = new int[n];
 
@@ -13,6 +14,7 @@ public class BufferN{
         tail = 0;
         numberOfElements = 0;
     }
+
     public synchronized void put(int x) {
         while (numberOfElements == data.length) {
             try {
@@ -27,6 +29,7 @@ public class BufferN{
         numberOfElements++;
         notifyAll();
     }
+
     public synchronized int get() {
         while (numberOfElements == 0) {
             try {
