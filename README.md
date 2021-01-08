@@ -1,6 +1,28 @@
 # Name
 Florian EGLIN
 
+## Die folgenden Übungen wurden behandelt
+
+Socket:
+TippDesTagesClient: OK
+TippDesTagesServer: OK
+ContestClient: OK
+
+Threads01:
+Übungen Teil 1: OK
+Übungen Teil 2: OK
+
+Docker:
+Docker-wahle: OK
+Docker-nginx: OK
+
+Web:
+SimpleWebServer: OK
+
+HTML:
+Code Makery Tutorial: OK
+
+
 # trinat-vs2-2020
 
 Vorlage für Abgabe der Aufgaben verteilte Systeme 2 (HS2020)
