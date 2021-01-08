@@ -14,7 +14,7 @@ Threads01:
 
 Docker:  
 Docker-wahle: OK  
-Docker-nginx: OK  
+Docker-nginx: not OK  
 
 Web:  
 SimpleWebServer: OK  
